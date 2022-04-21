@@ -1,0 +1,10 @@
+1. Find maximum between two numbers.
+2. Find maximum between three numbers.
+3. Check whether a number is negative, positive or zero.
+4. Check whether a number is divisible by 5 and 11 or not.
+5. Check whether a number is even or odd.
+6. Check whether a year is leap year or not.
+7. Check whether a character is alphabet or not.
+8. Input any alphabet and check whether it is vowel or consonant.
+9. Input any character and check whether it is alphabet, digit or special character.
+10. Program to calculate profit and loss on a transaction.
