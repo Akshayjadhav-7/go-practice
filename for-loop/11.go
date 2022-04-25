@@ -1,5 +1,5 @@
 // 11.
-//	   *
+//	       *
 //     * *
 //     * * *
 //     * * * *
@@ -18,6 +18,22 @@ func main() {
 			fmt.Printf("*")
 		}
 		fmt.Printf("\n")
+
+	}
+
+	for x := 1; x <= 5; x++ {
+
+		fmt.Printf("\n")
+
+		for y := 1; y <= x; y++ {
+
+			if x+y <= 2 {
+
+				fmt.Printf(" ")
+			}
+
+			fmt.Printf("*")
+		}
 
 	}
 }
