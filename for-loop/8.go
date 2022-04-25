@@ -8,8 +8,14 @@ func main() {
 	var n int = 20
 	var cubes int = 0
 
-	for i := 0; i <= n; i++ {
+	cube(n, cubes)
+}
+
+func cube(n, cubes int) {
+
+	for i := 1; i <= n; i++ {
+
 		cubes = i * i * i
-		fmt.Printf("%d ", cubes)
+		fmt.Printf("% d", cubes)
 	}
 }
