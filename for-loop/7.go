@@ -5,18 +5,14 @@ import "fmt"
 
 func main() {
 
-	var n int = 20
-
-	var sqr int = 0
-
-	square(n, sqr)
-
+	n := 20
+	squares(n)
 }
-
-func square(n, sqr int) {
-
+func squares(n int) int {
+	result := 0
 	for i := 1; i <= n; i++ {
-		sqr = i * i
-		fmt.Printf("%d ", sqr)
+		result = i * i
+		fmt.Printf("%d ", result)
 	}
+	return result
 }
