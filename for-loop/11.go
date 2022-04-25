@@ -27,7 +27,7 @@ func main() {
 
 		for y := 1; y <= x; y++ {
 
-			if x+y <= 2 {
+			if x <= 2 {
 
 				fmt.Printf(" ")
 			}
