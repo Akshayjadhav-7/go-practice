@@ -1,5 +1,5 @@
 // 11.
-//	       *
+//	   *
 //     * *
 //     * * *
 //     * * * *
@@ -11,29 +11,10 @@ import "fmt"
 
 func main() {
 
-	for i := 1; i <= 5; i++ {
-
-		for j := 1; j <= i; j++ {
-
+	for i := 0; i <= 4; i++ {
+		for j := 0; j <= i; j++ {
 			fmt.Printf("*")
 		}
 		fmt.Printf("\n")
-
-	}
-
-	for x := 1; x <= 5; x++ {
-
-		fmt.Printf("\n")
-
-		for y := 1; y <= x; y++ {
-
-			if x <= 1 {
-
-				fmt.Printf(" ")
-			}
-
-			fmt.Printf("*")
-		}
-
 	}
 }
