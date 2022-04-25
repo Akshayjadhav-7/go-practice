@@ -6,16 +6,13 @@ import "fmt"
 func main() {
 
 	var n int = 20
-	var cubes int = 0
-
-	cube(n, cubes)
+	cubes(n)
 }
-
-func cube(n, cubes int) {
-
+func cubes(n int) int {
+	cubes := 0
 	for i := 1; i <= n; i++ {
-
 		cubes = i * i * i
 		fmt.Printf("% d", cubes)
 	}
+	return cubes
 }
