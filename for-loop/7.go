@@ -6,13 +6,12 @@ import "fmt"
 func main() {
 
 	n := 20
-	squares(n)
-}
-func squares(n int) int {
-	result := 0
+
 	for i := 1; i <= n; i++ {
-		result = i * i
-		fmt.Printf("%d ", result)
+		fmt.Println("Square of", i, "is:", square(i))
 	}
-	return result
+}
+
+func square(n int) int {
+	return n * n
 }
