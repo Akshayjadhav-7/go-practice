@@ -7,14 +7,17 @@ func main() {
 
 	alphabet := 'a'
 
-	checkVowelConsonant(alphabet)
+	if checkVowelConsonant(alphabet) {
+		fmt.Printf("Given character is vowel")
+		return
+	}
+	fmt.Printf("Given character is consonant")
 }
 
-func checkVowelConsonant(alphabet rune) {
+func checkVowelConsonant(alphabet rune) bool {
 
 	if alphabet == 'a' || alphabet == 'e' || alphabet == 'i' || alphabet == 'o' || alphabet == 'u' {
-		fmt.Print("Given alphabet is vowel")
-	} else {
-		fmt.Print("Given alphabet is consonant")
+		return true
 	}
+	return false
 }
