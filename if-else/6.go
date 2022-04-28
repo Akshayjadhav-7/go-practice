@@ -5,16 +5,19 @@ import "fmt"
 
 func main() {
 	year := 1997
-	leapYear(year)
+	if leapYear(year) {
+		fmt.Print("Year is leap year")
+		return
+	}
+	fmt.Print("Year is not leap year")
 }
 
-func leapYear(year int) {
+func leapYear(year int) bool {
 
 	if year%400 == 0 {
-		fmt.Print("Given year is Leap year")
+		return true
 	} else if year%4 == 0 {
-		fmt.Print("Given year is Leap year")
-	} else {
-		fmt.Print("Given year is not Leap year")
+		return true
 	}
+	return false
 }

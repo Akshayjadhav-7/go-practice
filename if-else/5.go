@@ -8,7 +8,7 @@ func main() {
 
 	if num%2 == 0 {
 		fmt.Print("Given number is even ", num)
-	} else if num%2 != 0 {
+	} else {
 		fmt.Print("Given number is odd ", num)
 	}
 }
