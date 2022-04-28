@@ -5,17 +5,19 @@ import "fmt"
 
 func main() {
 
-	alphabet := '0'
-	checkAlphabet(alphabet)
+	alphabet := 'a'
+	if checkAlphabet(alphabet) {
+		fmt.Print("Given character is alphabet")
+		return
+	}
+	fmt.Print("Give character is not alphabet")
 
 }
 
-func checkAlphabet(alphabet rune) {
+func checkAlphabet(alphabet rune) bool {
 
 	if (alphabet >= 'a' && alphabet <= 'z') || (alphabet >= 'A' && alphabet <= 'Z') {
-		fmt.Print("Given character is alphabet")
-	} else {
-		fmt.Print("Given character is not alphabet")
+		return true
 	}
-
+	return false
 }
