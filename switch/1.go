@@ -1,4 +1,4 @@
-//1. Write a C program to print day of week name.
+//1. Write a go program to print day of week name.
 package main
 
 import "fmt"
