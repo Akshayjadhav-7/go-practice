@@ -1,0 +1,41 @@
+1. Program (*USE: Functions, Switch cases and it should be menu based)
+(i)  Prints array element
+(ii) Length of an array
+(iii) Display array in reverse order
+(iv) Maximum element from an array ({1,2,3,6,5} ==> 6)
+(v)	 Minimum element from an array
+(vi) Sum of all elements of an array
+(vii) Copy array elements to other array
+(viii) Print duplicate elements from an array
+(ix) Unique element from an array
+(x) Sort an array in ascending order
+(xi)Sort an array in descending order
+
+2. Seperate odd and even numbers of an array into separate arrays.
+3. Insert a new element to an array at some position.
+4. Delete an element from array.
+5. Print second largest number from an array.
+6. Find the missing number from a given array. (1,2,3,4,6,7 ==> 5)
+7. Find the repeating array elements.
+
+8. Matrix addition and subtraction (*USE: functions,switch cases)
+9. Multiplication of two square(X*X) matrices.
+10. Sum of left & right diagonals of a matrices.
+11. Check if two square matrices are equal or not.
+12.  row with maximum number of 1s. The given 2D array is :
+	0 1 0 1 1
+	1 1 1 1 1
+	1 0 0 1 0
+	0 0 0 0 0
+	1 0 0 0 1
+	The index of row with maximum 1s is: 1
+
+13. Bubble Sort
+14. Quick Sort
+15. Merge Sort
+16. Linear Search
+17. Binary Search
+18. Remove duplicates from an array.
+19. Count frequency of array elements.
+20. Print Prime Numbers from an array.
+
