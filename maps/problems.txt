@@ -1,0 +1,3 @@
+1. Write a Go program which takes country as input from user and prints the country's capital as output.
+2. Write a Go program that prints the count of occurence of array elements.
+3. Create a list of students. Print student details by taking roll number as input.
